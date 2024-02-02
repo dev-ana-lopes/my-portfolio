@@ -1,19 +1,20 @@
 .header {
     display: flex;
     flex-direction: column;
+
     grid-area: header;
     gap: 24px;
 
-    color: var(--text-primary);
-
     img {
         border-radius: 24px;
+        align-self: center;
     }
 
     h1 {
         font-weight: 600;
         font-size: 28px;
         line-height: 42px; 
+        color: var(--text-primary);
     }
 
     h2 {
@@ -21,6 +22,7 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;  
+        color: var(--text-secundary);
     }
 
     @media (min-width: 768px) {
@@ -45,6 +47,7 @@
         img {
             border-radius: 100%;
             border: 2px solid white;
+            
         }
 
         

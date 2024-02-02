@@ -7,14 +7,14 @@ export function Header(){
         <div className="header">
             <div className="title">
                 <h1>Hi, I´m Ana Lopes! </h1>
-                <h2>Software Engineer</h2>
+                <h2 className="subtitle">Software Engineer</h2>
             </div>
     
-            <Image
+            <Image className="img"
             src="/me.jpeg"
             alt="Ana profile"
-            width={380}
-            height={380}
+            width={280}
+            height={300}
             priority
             /> 
 
