@@ -35,11 +35,11 @@ export function Information(){
             <SectionTitle text="Education"/>
             <div className="education-info">
                 <div className="bandeira">
-                    <a href=""><GraduateIcons/></a>
+                    <GraduateIcons/>
                     <span>Software Engineer in Unicv - Bachelors Degree</span>
                 </div>
                 <div className="bandeira">
-                    <a href=""><GraduateIcons/></a>
+                    <GraduateIcons/>
                     <span>Mobile Application Developer in Unicesumar - Technology Degree</span>
                 </div>
             </div>
