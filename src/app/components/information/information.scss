@@ -11,7 +11,7 @@
     .languages-info {
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 8px;
         align-items: flex-start;
         width: 100%;
     }
@@ -19,13 +19,21 @@
     .education-info {
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        gap: 8px;
         align-items: flex-start;
         width: 100%;
     }
     span {
         color: var(--text-secundary);
-        gap:5px;
+        gap:8px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .bandeira {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
