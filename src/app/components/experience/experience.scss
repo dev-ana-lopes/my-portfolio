@@ -39,29 +39,37 @@
             .experience-count {
                 border-radius: 24px;
                 height: 40px;
-                background: linear-gradient(90deg, #777CF4,#f47777);
-                border: 1px linear-gradient(90deg, #777CF4,#f47777);
+                background: linear-gradient(90deg, #4d53fa,#fd5353);
+                border: 1px linear-gradient(90deg, #4d53fa,#fd5353);
                 
                 &.count-1 {
-                    //9 month
+                    //12 month
                     width: 25%;
                  }
 
-                 &.count-2 {
-                    width: 50%;
+                &.count-2 {
+                    width: 33%;
                  }
-
-                 &.count-3 {
-                    width: 75%;
+                
+                &.count-3 {
+                    width: 50%;
                  }
 
                  &.count-4 {
                     width: 100%;
                  }
-                
 
             }
         }
+
+    }
+
+    span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 5px;
     }
     
 
@@ -69,7 +77,7 @@
         align-items: flex-start;
     
         p {
-            font-size: 24px;
+            font-size: 20px;
             line-height: 36px;
             text-align: start;
         }

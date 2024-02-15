@@ -22,7 +22,15 @@
         gap: 8px;
         align-items: flex-start;
         width: 100%;
+
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
     }
+    
     span {
         color: var(--text-secundary);
         gap:8px;
@@ -35,5 +43,7 @@
         align-items: center;
         justify-content: center;
     }
+
+    
 
 }

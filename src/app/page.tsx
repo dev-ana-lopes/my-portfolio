@@ -12,7 +12,7 @@ export default function Home() {
       <Information/>
       <div className="buttons">
         <SocialButtons/>
-        <button className="contact-button"><a href="mailto:anajulia2015.ds@gmail.com">Contact me</a></button>
+        <button className="contact-button"><a href="mailto:anajulia2015.ds@gmail.com"></a>Contact me</button>
       </div>
 
     </main>

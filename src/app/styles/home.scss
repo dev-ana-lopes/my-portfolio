@@ -1,7 +1,7 @@
 .container{
     padding: 40px 32px;
     display: grid;
-    gap: 24px;
+    gap: 20px;
     justify-items: center;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
@@ -21,7 +21,7 @@
         width: 100%;
 
         .contact-button {
-            background: linear-gradient(90deg, #777CF4,#f47777);
+            background: linear-gradient(90deg, #4d53fa,#fd5353);
             border-radius: 24px;
             width: 320px;
             padding: 16px;
@@ -38,21 +38,15 @@
             gap: 20px;
             justify-content: center;
 
-            a {
-                font-family: poppins;
-                font-weight: bold;
-                text-decoration: none;
-                color: white;
-            }
         }
     }
 
     
 }
 
-@media (min-width: 768px) {
+@media (min-width: 990px) {
     .container{
-        padding: 80px 80px;
+        padding: 60px 120px;
         height: 100vh;
         grid-template-rows: fit-content(100%);
         grid-template-columns: 60% 30%;
@@ -62,5 +56,18 @@
         grid-template-areas: 
         "header information"
         "experience buttons";
+    }
+}
+
+
+@media (min-width: 1890px) {
+    .container{
+        padding: 80px 360px;
+        height: 100vh;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: 60% 30%;
+        align-items: center;
+        justify-items: center;
+        justify-content:center;
     }
 }
